@@ -127,7 +127,7 @@ Additional package installation notes are in the Vagrantfile.
 
 You'll need a `data` directory that contains:
 
-* analysis (the output of our data analyses)
+* analysis (the output of our data analysis)
 * congress (a symbolic link to the [congress project](https://github.com/unitedstates/congress)'s `data` directory, holding bill and legislator data, some of which can't be reproduced because the source data is gone; also set `CONGRESS_DATA_PATH=data/congress` in local/settings.env)
 * congress-bill-text-legacy (a final copy of HTML bill text scraped from the old THOMAS.gov, for bills before XML bill text started)
 * historical-committee-membership (past committee membership, snapshots of earlier data)
